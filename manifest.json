@@ -1,0 +1,21 @@
+{
+  "name": "T.A.M",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "Text Analysis Model powered by Google Gemini",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["sidePanel"],
+  "side_panel": {
+    "default_path": "sidepanel/index.html"
+  },
+  "action": {
+    "default_icon": {
+      
+      "32": "images/icon32.png"
+     
+    },
+    "default_title": "T.A.M Text Analysis Model"
+  }
+}
