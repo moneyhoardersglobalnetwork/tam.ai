@@ -15,11 +15,7 @@ import { ethers } from '..node_modules/ethers';
 //
 // It is only OK to put your API key into this file if you're the only
 // user of your extension or for testing.
-<<<<<<< HEAD
 const apiKey = 'Add Your Key Here';
-=======
-const apiKey = 'Add Your API key';
->>>>>>> 274e796424af9013e5acd3f41f214d07bd83206c
 
 let genAI = null;
 let model = null;
