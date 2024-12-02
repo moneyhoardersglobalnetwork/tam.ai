@@ -3,6 +3,7 @@ import {
   HarmBlockThreshold,
   HarmCategory
 } from '../node_modules/@google/generative-ai/dist/index.mjs';
+import { ethers } from '..node_modules/ethers';
 
 // Important! Do not expose your API in your extension code. You have to
 // options:
@@ -14,7 +15,7 @@ import {
 //
 // It is only OK to put your API key into this file if you're the only
 // user of your extension or for testing.
-const apiKey = 'AIzaSyCP2t8iEpGJqZxstG4UttTAOZLPCe30kLI';
+const apiKey = 'Add Your Key Here';
 
 let genAI = null;
 let model = null;
@@ -29,6 +30,9 @@ const elementLoading = document.body.querySelector('#loading');
 const elementError = document.body.querySelector('#error');
 const sliderTemperature = document.body.querySelector('#temperature');
 const labelTemperature = document.body.querySelector('#label-temperature');
+const connectWalletButton = document.getElementById('connectWallet');
+const walletAddressElement = document.getElementById('walletAddress');
+
 
 function initModel(generationConfig) {
   const safetySettings = [
