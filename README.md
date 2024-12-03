@@ -16,16 +16,16 @@ The A.I space is blowing up and you really can't turn a corner without running i
 
 **Whether you're a researcher, marketer, student, or simply overwhelmed by information, T.A.M. is your key to efficient and insightful text analysis.**
 
-T.A.M is simple, but powerful for streamlining productivity. Along MHGN's other projects T.A.M will help ecosystem participants to find and create value.  
+T.A.M is simple, but powerful for streamlining productivity. Along with MHGN's other projects T.A.M will help ecosystem participants to find and create value MHGN's core mission.  
 The ability for T.A.M to help developers write new code logic can help move project development at a faster speed.
 
 ## How we built it
-Using the resources given we utilized the Prompt API chrome extension example. We then modifed the appearance slightly to appeal to users. We are planning to offer T.A.M standalone as a chrome extension and also integrate with the MHGN Hoarding Gateway where T.A.M will be avaliable to the ecosystem for R&D.
+Using the resources given we utilized the Prompt API chrome extension example. We then modifed the appearance slightly to appeal to users. We are planning to offer T.A.M standalone as a chrome extension and also link with the MHGN Hoarding Gateway so that T.A.M will be avaliable to the ecosystem for R&D.
 
 ## Challenges we ran into
 First time working with chrome extensions and wanted to work on web3 wallet integrations for side panel.
-We may or may not have integrated web3 wallet login for T.A.M by hackathon deadline and we will update on any changes.
-We plan on offering mobile, chrome extension, and web versions of the MHGN Hoarding Gateway so over time the application we become more useful and valueable.
+We found it difficult to integrated web3 wallet login for T.A.M by hackathon deadline and we will update on any changes.
+We may not be able to connect users wallets in side-panel, but progress was made through trail and error.
 
 ## Accomplishments that we're proud of
 MHGN Hoarder Labs has come a long way since first join the Devpost platform and as we move into the A.I space it has been a great learning process. We feel very accomplished in the Web3 world with the BOP token live on Polygon Network and believe this integration will move the protocol to new levels.
